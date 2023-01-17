@@ -11,3 +11,8 @@ def combinations(n, k):
 m=combinations(13, 4)
 print(f'm = {m}')
 
+n=combinations(52, 4)
+print(f'n = {n}')
+
+P=m/n
+print(f'P(4 трефы) = {round(P,4)}')
