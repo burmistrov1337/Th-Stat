@@ -34,4 +34,4 @@ print(f'P(хотя бы 1 туз) = {round(P,4)}')
 P2=1-combinations(48,4)/combinations(52,4)
 print(f'P(хотя бы 1 туз) = {round(P2,4)}')
 
-print(f'Ответы: а) P(4 трефы) = {round(P1,4)},' /n 'б) P(хотя бы 1 туз) = {round(P,4)}')
+print(f'Ответы: а) P(4 трефы) = {round(P1,4)}, /n б) P(хотя бы 1 туз) = {round(P,4)}')
